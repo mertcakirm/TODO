@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { CheckSquare, Flame } from "lucide-react";
+import logo from '../assets/logo.png'
 
 export default function Navbar() {
   return (
@@ -7,8 +8,8 @@ export default function Navbar() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center gap-2">
-            <div className="bg-indigo-600 p-2 rounded-lg">
-              <CheckSquare className="w-5 h-5 text-white" />
+            <div className="p-2 rounded-lg">
+              <img src={logo} alt="" className="w-8 h-8" />
             </div>
             <span className="font-bold text-xl tracking-tight text-slate-900">GörevYönet</span>
           </div>
