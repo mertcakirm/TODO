@@ -18,11 +18,11 @@ export default function TaskForm({ addTask }) {
         value={taskTitle}
         onChange={(e) => setTaskTitle(e.target.value)}
         placeholder="Yeni bir görev yaz..."
-        className="flex-1 px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent shadow-sm transition-shadow"
+        className="flex-1 px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent shadow-sm transition-all"
       />
       <button
         type="submit"
-        className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-medium transition-colors flex items-center gap-2 shadow-sm"
+        className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-medium transition-colors flex items-center gap-2 shadow-sm cursor-pointer"
       >
         <Plus className="w-5 h-5" />
         <span className="hidden sm:inline">Ekle</span>

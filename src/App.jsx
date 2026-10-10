@@ -25,7 +25,6 @@ export default function App() {
   // Ekle (Create)
   const addTask = (title) => {
     const newTask = createTask(title);
-    // Yeni görevi dizinin en başına ekliyoruz (unshift mantığı)
     setTasks([newTask, ...tasks]);
   };
 
@@ -54,7 +53,8 @@ export default function App() {
 
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
+      {/* Ana kapsayıcıya dark mode arka plan ve metin renkleri eklendi */}
+      <div className="min-h-screen flex flex-col bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors">
         <Navbar />
         <main className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <Routes>
