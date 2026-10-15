@@ -1,19 +1,67 @@
-# React + Vite
+# 📝 TODO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**React**, **Vite** ve **Tailwind CSS** ile geliştirilmiş, modern ve akıcı animasyonlara sahip bir yapılacaklar listesi (To-Do) uygulaması.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Özellikler
 
-## React Compiler
+- **Görev Yönetimi:** Görev ekleme, acil olarak işaretleme,tamamlama ve silme.
+- **Çoklu Sayfa Yapısı:** `React Router DOM` ile sayfalar arası hızlı ve kesintisiz geçiş.
+- **Akıcı Animasyonlar:** `Framer Motion` ile sayfa geçişleri ve liste animasyonları.
+- **Modern Arayüz:** `Tailwind CSS` ile duyarlı (responsive) ve temiz tasarım.
+- **İkon Desteği:** `Lucide React` ile tutarlı ve hafif ikon seti.
+- **Performans:** React Compiler ile otomatik render optimizasyonu.
+- **Tema:** Karanlık ve aydınlık tema seçenekleri.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## 🧰 Kullanılan Teknolojiler & Paketler
 
-## Expanding the ESLint configuration
+| Alan | Teknoloji |
+| --- | --- |
+| Kütüphane | React |
+| Build Aracı | Vite |
+| Stil | Tailwind CSS  |
+| Yönlendirme | React Router DOM |
+| Animasyon | Framer Motion |
+| İkonlar | Lucide React |
+| Kod Kalitesi | ESLint |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Gereksinimler
+
+- [Node.js](https://nodejs.org/) (LTS sürümü önerilir)
+- npm
+
+## 🚀 Çalıştırma Adımları
+
+1. Projeyi bilgisayarınıza klonlayın:
+
+```bash
+   git clone https://github.com/mertcakirm/TODO.git
+```
+
+2. Proje dizinine gidin:
+
+```bash
+   cd TODO
+```
+
+3. Gerekli bağımlılıkları yükleyin:
+
+```bash
+   npm install
+```
+
+4. Geliştirme sunucusunu başlatın:
+
+```bash
+   npm run dev
+```
+
+5. Tarayıcınızda Vite'ın verdiği adresi açın (varsayılan: `http://localhost:5173`).
+
+## 📜 Kullanılabilir Komutlar
+
+| Komut | Açıklama |
+| --- | --- |
+| `npm run dev` | Geliştirme sunucusunu başlatır |
+| `npm run build` | Üretim için optimize edilmiş build alır |
